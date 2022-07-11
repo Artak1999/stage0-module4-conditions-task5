@@ -4,7 +4,7 @@ public class SwitchDaysInMonthPrinter {
     public void amountOfDays(int month) {
         switch (month){
             case 1:System.out.println(31);break;
-            case 2:System.out.println(28 + "or" + 29);break;
+            case 2:System.out.println(28);break;
             case 3:System.out.println(31);break;
             case 4:System.out.println(30);break;
             case 5:System.out.println(31);break;
@@ -15,7 +15,7 @@ public class SwitchDaysInMonthPrinter {
             case 10:System.out.println(31);break;
             case 11:System.out.println(30);break;
             case 12:System.out.println(31);break;
-            default:System.out.println("wrong number!");break;
+            default:System.out.println("invalid date!");
         }
     }
 }
