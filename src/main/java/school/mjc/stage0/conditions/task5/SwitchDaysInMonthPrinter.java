@@ -15,7 +15,7 @@ public class SwitchDaysInMonthPrinter {
             case 10:System.out.println(31);break;
             case 11:System.out.println(30);break;
             case 12:System.out.println(31);break;
-            default:System.out.println("invalid date!");
+            default:System.out.println("wrong number!");
         }
     }
 }
